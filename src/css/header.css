@@ -1,0 +1,15 @@
+/* animations.css */
+@keyframes slideInAndOut {
+    0%, 100% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+}
+
+.animate-slide {
+    display: inline-block;
+    white-space: nowrap;
+    animation: slideInAndOut 10s linear infinite;
+}
